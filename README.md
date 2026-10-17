@@ -63,5 +63,5 @@ Esta condición puede hacer que la máscara de profundidad pierda píxeles váli
 
 Cuando las cuatro esquinas ya no se detectan de forma fiable, las correspondencias 2D–3D proporcionadas a solvePnP dejan de ser confiables y la estimación de rotación y traslación puede volverse inexacta. En consecuencia, la pose publicada y la transformación TF pueden dejar de representar correctamente la posición física del objetivo.
 
-Este comportamiento evidencia una limitación geométrica del seguimiento planar monocular: cuando un objeto plano se aproxima a una orientación de canto, su área proyectada puede resultar
+Este comportamiento evidencia una limitación geométrica del seguimiento planar monocular: cuando un objeto plano se aproxima a una orientación de canto, su área proyectada puede resultar demasiado pequeña para una estimación robusta de pose basada en sus esquinas.
 
