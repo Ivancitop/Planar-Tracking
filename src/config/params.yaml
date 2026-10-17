@@ -1,0 +1,6 @@
+depth_segmenter:
+  ros__parameters:
+    near_mm: 400.0
+    far_mm: 900.0
+    kernel_size: 5
+    min_area_px: 2000.0

@@ -1,0 +1,46 @@
+rosbag2_bagfile_information:
+  compression_format: ''
+  compression_mode: ''
+  custom_data: null
+  duration:
+    nanoseconds: 5750000000
+  files:
+  - duration:
+      nanoseconds: 5750000000
+    message_count: 72
+    path: planar_tracking_stress_suite.db3
+    starting_time:
+      nanoseconds_since_epoch: 1000000000
+  message_count: 72
+  relative_file_paths:
+  - planar_tracking_stress_suite.db3
+  ros_distro: rosbags
+  starting_time:
+    nanoseconds_since_epoch: 1000000000
+  storage_identifier: sqlite3
+  topics_with_message_count:
+  - message_count: 24
+    topic_metadata:
+      name: /camera/color/image_raw
+      offered_qos_profiles: []
+      serialization_format: cdr
+      type: sensor_msgs/msg/Image
+      type_description_hash: 
+        RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+  - message_count: 24
+    topic_metadata:
+      name: /camera/aligned_depth_to_color/image_raw
+      offered_qos_profiles: []
+      serialization_format: cdr
+      type: sensor_msgs/msg/Image
+      type_description_hash: 
+        RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+  - message_count: 24
+    topic_metadata:
+      name: /camera/color/camera_info
+      offered_qos_profiles: []
+      serialization_format: cdr
+      type: sensor_msgs/msg/CameraInfo
+      type_description_hash: 
+        RIHS01_b3dfd68ff46c9d56c80fd3bd4ed22c7a4ddce8c8348f2f59c299e73118e7e275
+  version: 9
