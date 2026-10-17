@@ -1,6 +1,17 @@
+# Afinado para planar_tracking_stress_suite.db3
+# (objeto a 579-1199 mm; balón a 1450 mm y botella a 430 mm quedan fuera de la banda)
 depth_segmenter:
   ros__parameters:
-    near_mm: 400.0
-    far_mm: 900.0
-    kernel_size: 5
+    near_mm: 500.0
+    far_mm: 1300.0
+    kernel_size: 3
     min_area_px: 2000.0
+    min_rectangularity: 0.80
+
+pose_estimator:
+  ros__parameters:
+    target_width_m: 0.1056     # dimensiones de la tarea (ver README: discrepancia con el bag)
+    target_height_m: 0.074
+    target_frame: target_frame
+    camera_frame: camera_color_optical_frame
+    min_contour_area_px: 500.0
